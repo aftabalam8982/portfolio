@@ -12,21 +12,24 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
 
-  const handleScroll = () => {
-    if (window.pageYOffset > 90) {
-      if (!nav) {
-        setNav(true);
-      }
-    } else {
-      setNav(false);
-    }
-  };
   const toggleMenu = () => {
     showMenu ? setShowMenu(false) : setShowMenu(true);
   };
   useEffect(() => {
+    const handleScroll = () => {
+      if (window.pageYOffset > 90) {
+        if (!nav) {
+          setNav(true);
+        }
+      } else {
+        setNav(false);
+      }
+    };
     window.addEventListener("scroll", handleScroll);
-  }, []);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [nav]);
 
   const handleToggle = () => {
     if (getLocalStorageItem("theme")) {
