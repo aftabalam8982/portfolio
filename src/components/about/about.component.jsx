@@ -69,7 +69,7 @@ const renderAboutMain = () => (
               applications.
             </li>
             <li>
-              Spearheaded feature additions, contributing to the project&apos;
+              Spearheaded feature additions, contributing to the project&apos;s
               growth and functionality.
             </li>
             <li>
