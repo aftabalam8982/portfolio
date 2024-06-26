@@ -14,7 +14,7 @@ const Home = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            @Classic Informatics
+            @Advanced Infoscan
           </a>
         </div>
         <div className='socials'>

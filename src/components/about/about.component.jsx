@@ -42,7 +42,7 @@ const renderAboutSideBar = () => (
     <div className='about-summary'>
       <div className='about-title'>Summary</div>
       <div className='about-description'>
-        A passionate developer, philomath, bringing 3.5+ years of experience in
+        A passionate developer, philomath, bringing 3.7 years of experience in
         multiple Web Technologies and fostering relationships with clients,
         partners & team members. Proficient with front-end web development,
         learner of backend web-technologies, aspiring to be a proficient
@@ -58,9 +58,9 @@ const renderAboutMain = () => (
       <div className='about-title'>Work Experience</div>
       <div className='experience-details'>
         <div className='job-designation'> Software Engineer</div>
-        <div className='organisation-name'>Classic Informatics Pvt Ltd</div>
+        <div className='organisation-name'>Advanced Infoscan Pvt Ltd</div>
         <div className='job-duration'>
-          <i>03/2022 - 07/2023</i>
+          <i>04/2022 - Present</i>
         </div>
         <div className='work-descriptions'>
           <ul>
@@ -95,10 +95,10 @@ const renderAboutMain = () => (
       </div>
       {renderSeparator()}
       <div className='experience-details'>
-        <div className='job-designation'>Software Engineer</div>
-        <div className='organisation-name'>Deltra Soft Technology Pvt Ltd</div>
+        <div className='job-designation'>Associate Software Engineer</div>
+        <div className='organisation-name'>Advanced Infoscan Pvt Ltd</div>
         <div className='job-duration'>
-          <i>12/2019 - 03/2022</i>
+          <i>11/2020 - 04/2022</i>
         </div>
         <div className='work-descriptions'>
           <ul>
